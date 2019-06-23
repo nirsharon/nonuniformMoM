@@ -1,14 +1,20 @@
-This is a Matlab implementation for cryo-EM reconstruction over non-uniform distribution of viewing directions.
+A Complementary software for the paper: "Method of moments for 3-D single particle ab-initio modeling with non-uniform distribution of viewing angles”
+Paper authors: Nir Sharon, Joe Kileel, Yuehaw Khoo, Boris Landa, Amit Singer.
 
-—————————————
+Version: 1.0.
+Release date: 30 June 2019.
+Matlab code.
 
-Running the code
+Usage
 
-The code is using the following 3rd party code, which must be installed and in path:
-1 — ASPIRE package, see http://spr.math.princeton.edu/.
-2 — Spherical Harmonic Transform Library, see https://github.com/polarch/Spherical-Harmonic-Transform. This collection of Matlab functions is based on the dissertation of Archontis Politis, 2015. The relevant code is attached.
+For a reproduction of the figures in the paper, see "makeFigures/" folder.
+
+3rd party code
+
+This package uses and is distributed the following software produced by 3rd parties:
+1.	CVX package: Michael Grant and Stephen Boyd. CVX: Matlab software for disciplined convex programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
+2.	ASPIRE package, see http://spr.math.princeton.edu/.
+3.	Spherical Harmonic Transform Library, see https://github.com/polarch/Spherical-Harmonic-Transform. This collection of Matlab functions is based on the dissertation of Archontis Politis, 2015. 
 
 In addition, some of the optimization scripts use ManOpt package, see https://manopt.org/. Thanks Nicolas!
 
-
-Remarks
