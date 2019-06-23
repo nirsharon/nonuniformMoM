@@ -1,0 +1,14 @@
+This is a Matlab implementation for cryo-EM reconstruction over non-uniform distribution of viewing directions.
+
+—————————————
+
+Running the code
+
+The code is using the following 3rd party code, which must be installed and in path:
+1 — ASPIRE package, see http://spr.math.princeton.edu/.
+2 — Spherical Harmonic Transform Library, see https://github.com/polarch/Spherical-Harmonic-Transform. This collection of Matlab functions is based on the dissertation of Archontis Politis, 2015. The relevant code is attached.
+
+In addition, some of the optimization scripts use ManOpt package, see https://manopt.org/. Thanks Nicolas!
+
+
+Remarks
