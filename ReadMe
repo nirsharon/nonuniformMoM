@@ -7,7 +7,9 @@ Matlab code.
 
 Usage
 
-For a reproduction of the figures in the paper, see "makeFigures/" folder.
+A simple optimization example is avaiable via "run_optimization_example.m", after installing packages 2. and 3. below and the ManOpt package. 
+
+For a reproduction of the figures in the paper, see "makeFigures/" folder (to appear soon).
 
 3rd party code
 
